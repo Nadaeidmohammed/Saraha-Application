@@ -1,0 +1,29 @@
+{
+  "name": "session20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "20.18.0"
+  },
+  "scripts": {
+    "dev": "nodemon --env-file=./src/config/.env ./index.js",
+    "start": "node --watch ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "nanoid": "^5.1.0",
+    "nodemailer": "^6.10.0"
+  }
+}
